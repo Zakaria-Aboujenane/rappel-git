@@ -53,12 +53,28 @@ git commit:
 		-> copy the code 
 		-> git show hashCode
 			=> to see more about the commit (what we added)
+	-> to amend or change the message of a commit :
+		-> git commit --amend -m "new change : body {} in main.css"
+
 git diff (differences): in general not like git show
 	-> see difference between what in working dir and what in staging area
 	-> by doing git diff :
 		-> ta7t @ atl9a + lines li tzado xD
 git restore index.js : discarding changes
 	-> restore to latest one (no changes)
-
-
+git push :
+	-> copy from our working machine to a remote server
+github:
+	-> platform for hosting and collaborating on git repos
+	-> people can contribute with it
+connect to github :
+	-> git remote add origin https://github.com/Zakaria-Aboujenane/rappel-git.git
+	-> git branch -M main
+	-> git push -u origin main
+		-> github changer branch from master to main xD
+	->when doring git push -u they will tell u to enter account
+	-> u can configure github account for SSh :
+		-> goto : https://github.com/settings/keys
+		-> https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+		-> follow steps for windows
 	
