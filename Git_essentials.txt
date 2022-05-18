@@ -52,8 +52,13 @@ git commit:
 		-> every commit have a hash code in top
 		-> copy the code 
 		-> git show hashCode
-			=> to see more
-git diff (differences):
+			=> to see more about the commit (what we added)
+git diff (differences): in general not like git show
+	-> see difference between what in working dir and what in staging area
 	-> by doing git diff :
 		-> ta7t @ atl9a + lines li tzado xD
+git restore index.js : discarding changes
+	-> restore to latest one (no changes)
+
+
 	
