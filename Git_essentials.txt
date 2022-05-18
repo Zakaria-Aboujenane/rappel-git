@@ -1,0 +1,47 @@
+
+Staging Area
+Commit history
+________________________________________________________________________________
+intro :
+	when we do git add file
+		-> here the file is in staging area 
+	when we do git commit 
+		-> the file is in commit history
+		-> when we do changers we have to commit it 
+		-> commit is just a safe point 
+	staging area + commit :
+		-> this is happening in local machine 
+	git push : send to remote server
+		-> we need to do git push to store it in a remote server
+		-> remote servers like : github, bitbucket ,aws code commit
+	git pull
+		-> hamid did a push to remote server 
+		-> mariam can receive the changes by doing : \
+________________________________________________________________________________
+
+git setup : configure git:
+	-> git config --global user.name "zakariascode"
+	-> git config --global user.email "set@zakariascode.com"
+	-> git config --global color.ui auto  // enables commandline coloring output
+	-> git config -e // to edit
+	-> -l to list configurations
+________________________________________________________________________________
+git init: declare working dir as a git repo
+	-> our working directory in our machine 
+	-> we need to set it as a git repository
+	 -int the working dir : 
+		-> git init .
+
+
+git status : gives status of changes made 
+		-> telling about staging area status
+	git add index.html : to stage
+	git rm --cached index.html : to unstage
+	git rm -r --cached . (. for all in current dir) :  to remove all
+
+create a dir in working dir:
+	mkdir test -> cd test -> touch test.js 
+	-> now we are in test dir but if we check git status we don't found our file xD
+	-> bu doing git add .
+			=> we add only test.js
+	-> by doing git add -A we add all xD
