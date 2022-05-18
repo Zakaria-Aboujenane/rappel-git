@@ -45,3 +45,15 @@ create a dir in working dir:
 	-> bu doing git add .
 			=> we add only test.js
 	-> by doing git add -A we add all xD
+git commit:
+	-> git commit -m "project XD"
+	-> git status : nothing bcs the staging area is empty
+	-> git log : to see commits 
+		-> every commit have a hash code in top
+		-> copy the code 
+		-> git show hashCode
+			=> to see more
+git diff (differences):
+	-> by doing git diff :
+		-> ta7t @ atl9a + lines li tzado xD
+	
